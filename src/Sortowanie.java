@@ -19,6 +19,12 @@ public class Sortowanie {
         }
     }
 
+    /********************************************************
+     * nazwa funkcji: szukajMaksyalnej
+     * parametry wejściowe: k - indeks początku przeszukiwania
+     * wartość zwracana szukany indeks
+     * autor: nieznany
+     *********************************************************/
     private int szukajMaksmalnej(int k) {
         int szukany = k;
         int makszy = tablica[k];
